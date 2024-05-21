@@ -1,2 +1,3 @@
-# base_styling
-belajar html,css dan js dasar
+# learn basic html and css
+ 
+this is my uni stuff

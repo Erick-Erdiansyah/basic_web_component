@@ -3,21 +3,85 @@ body {
 	margin: 0 10%;
 	font-family: sans-serif;
 }
+
 h1 {
 	text-align: center;
 	font-family: serif;
 	font-weight: normal;
 	text-transform: uppercase;
-	border-bottom: 1px solid #57b1dc;
+	border-bottom: 1px solid #253137;
 	margin-top: 30px;
 }
+
 h2 {
 	color: #d1633c;
 	font-size: 1em;
 }
-h3{
-  font-size: 0.9em;
+
+h3 {
+	font-size: 0.9em;
 }
-a{
-  text-decoration: none;
+
+a {
+	text-decoration: none;
+}
+
+form ul,
+form ul li {
+	list-style-type: none;
+}
+
+input.info {
+	height: 2rem;
+	display: block;
+	flex: auto;
+	flex-wrap: wrap;
+
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: lighter;
+	text-indent: 10px;
+	border-radius: 5px;
+	border: 1px solid #ced4da;
+}
+
+textarea {
+	display: block;
+	flex: auto;
+	flex-wrap: wrap;
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: lighter;
+	text-indent: 10px;
+	border-radius: 5px;
+	border: 1px solid #ced4da;
+}
+
+input:focus-visible {
+	outline: none;
+	text-indent: 10px;
+}
+
+textarea:focus-visible {
+	outline: none;
+	text-indent: 10px;
+}
+
+p input {
+	height: 2.4rem;
+	width: 15rem;
+	margin: 0 1rem 1rem 1rem;
+	justify-content: center;
+	font-size: 1.3rem;
+	border-radius: 10px;
+	color: white;
+	background-color: #333;
+	border: 1px solid #333;
+}
+
+p input:hover {
+	color: black;
+	background-color: white;
+	border: 1px solid #333;
+	cursor: pointer;
 }

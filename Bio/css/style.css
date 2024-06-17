@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #22223b;
+}
+  
+body{
+  width: 80%;
+  margin: 2em auto;
+}
+
+.grid-container{
+  display: grid;
+}
+.grid-item{
+  grid-row-start: 1;
+}
+
+.grid-item img.profile{
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  margin-bottom: 5em;
+}
+
+h1{
+  color: white;
+}
+
+li{
+  list-style-type: none;
+}

@@ -1,0 +1,40 @@
+@font-face {
+	font-family: Roboto;
+	src: url("/font/roboto/Roboto-Black.ttf");
+	src: url("/font/roboto/Roboto-Black.ttf") format("truetype");
+}
+@font-face {
+	font-family: Tiny5;
+	src: url("/font/Tiny5-Regular.ttf");
+	src: url("/font/Tiny5-Regular.ttf") format("truetype");
+}
+
+html {
+	font-size: 10px;
+	margin: 0;
+}
+
+body {
+	width: 80%;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+/* Typography */
+
+h1 {
+	font-size: 3.2rem;
+font-family: "Tiny5", sans-serif;
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-family: "Tiny5", sans-serif;
+}
+
+p {
+  font-size: 1.4rem;
+	font-family: "Roboto", sans-serif;
+	line-height: 1.6;
+	word-spacing: 0.6rem;
+}

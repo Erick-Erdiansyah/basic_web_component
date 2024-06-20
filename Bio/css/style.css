@@ -1,33 +1,164 @@
-*{
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #22223b;
-}
-  
-body{
-  width: 80%;
-  margin: 2em auto;
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
-.grid-container{
-  display: grid;
-}
-.grid-item{
-  grid-row-start: 1;
+body {
+	background-color: rgba(0, 0, 0, 0.9);
+	margin: auto auto;
 }
 
-.grid-item img.profile{
-  width: 10em;
-  height: 10em;
-  border-radius: 50%;
-  margin-bottom: 5em;
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+	width: 100%;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	padding: 1.1rem;
 }
 
-h1{
-  color: white;
+a {
+	color: white;
+	text-decoration: none;
 }
 
-li{
-  list-style-type: none;
+.nav {
+	width: fit-content;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	font-size: 1rem;
+	/* font-weight: bold; */
+	margin-right: 2rem;
+}
+
+.nav a {
+	color: white;
+	margin: auto 1rem;
+	text-decoration: none;
+}
+
+.container {
+	width: 80%;
+	margin: 10rem auto auto auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+img.profile {
+	width: 6em;
+	height: 6em;
+	border-radius: 50%;
+	margin: 0 100% 3em 100%;
+}
+
+.text-icon {
+	text-align: center;
+}
+
+i {
+	margin: auto 1% auto 1%;
+	font-size: 2em !important;
+	color: white !important;
+}
+
+i.lni-flutter {
+	font-size: 1em !important;
+}
+
+p.name {
+	font-size: 4em;
+	color: white;
+	margin-bottom: 5%;
+}
+
+p.status {
+	font-size: 2em;
+	color: white;
+	margin-bottom: 5%;
+}
+
+.about {
+	color: white;
+	font-size: large;
+	line-height: 1.6;
+	margin: auto auto 3% 20%;
+	width: 60%;
+}
+
+h2,h3 {
+	color: white;
+}
+
+button {
+	color: white;
+	background-color: #212529;
+	margin: 3% auto;
+	padding: 1rem;
+	border-radius: 20px;
+	border: none;
+}
+
+button:hover{
+	background-color: #343A40;
+}
+
+.a-modal{
+ color: black;
+}
+
+.p-modal{
+	margin-bottom: 5%;
+}
+
+.image{
+	width: 70%;
+	height: 50%;
+}
+
+p.desc{
+	color: white;
+	margin-top: 4%;
+}
+
+.modal {
+	display: none; 
+	position: fixed; 
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto; 
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+	background-color: white;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 60%;
+	border-radius: 10px;
+}
+
+.close {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
 }
